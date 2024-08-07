@@ -1,0 +1,18 @@
+First exercises
+
+Install Mysql Workbench in this link: https://www.mysql.com/downloads/
+
+you select the option developer and install all the app
+
+Instruccions:
+
+"create" is the comand for create data base
+"database" is the reference of the object
+"drop" is the comand for delete a data base
+
+example: create database "name of you data base" ;
+
+code:
+
+creatde database Prueba_DB;
+drop database Prueba_DB;
