@@ -1,0 +1,14 @@
+Second exercises
+instruccions:
+
+"use" command for reference, is the indicator for mysql, mysql interprets "use" for establish a space of work in the database selected
+example: use prueba_db;
+"table" the table is similar to an excel table, is the zone for send the data
+"Usuario" is the reference for recognize the table is his name
+"int, varchar" are type of datos for example int is numbers, varchar is characters for example letters and numbers
+":" is the indicate the end line code, is necesary end the you line code.
+"drop table name_of_table" is for you delete a table on of the data base.
+code:
+
+use prueba_db;
+create table Usuario(id int, email varchar(255), username varchar(50));
