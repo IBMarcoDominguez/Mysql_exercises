@@ -1,0 +1,23 @@
+Third exercise
+
+intruccions:
+
+"alter" is the command for modify or edit the columns on the a table in a data base
+"add" is the command concatenated whit "alter"
+example: alter table name_of_table add name_new_column int;
+remember the column need a name and a type of dato (int, varchar,etc.)
+
+if you need delete a column you write the command "drop", is necesary use a reference "column"
+example: alter table name_of_table drop column name_of_column;
+
+remember write in you code "use database"
+
+if you need alter data type in the table you write the command "alter" need reference "modify" is the action
+example: alter table name_of_table column name_of_column type_of_dato(int, varchar,etc.) (number of characters)
+code:
+
+use prueba_db;
+
+alter table usuario add edad int;
+alter table usuario drop column edad;
+alter table usuario modify column email varchar(50);
