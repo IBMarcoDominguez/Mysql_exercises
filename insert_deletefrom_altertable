@@ -1,0 +1,13 @@
+fourth exercises
+
+instruccions:
+
+'insert into', insert value on of a table
+'delete from', delete info or value on of the table
+https://github.com/IBMarcoDominguez/Mysql_exercises/tree/main
+code:
+
+insert into usuario (email,username) values ('nicolas@correo.com','chanchitofeliz');
+delete from usuario where email = 'nicolas@correo.com'limit 1;
+alter table usuario add primary key (id);
+alter table usuario modify column id int AUTO_INCREMENT;
