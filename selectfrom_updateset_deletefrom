@@ -1,0 +1,12 @@
+fifth exercises
+
+instruccions:
+
+'select from' this is for look the content of tha table
+'update set' this is for modify a date
+'delete from' for destory data, columns or table
+
+code:
+select * from usuario;
+update usuario set email = 'marck@correo.com' where id = 2;
+delete from usuario where id = 2;
